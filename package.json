@@ -1,0 +1,49 @@
+{
+	"name": "@pluschong/utils",
+	"version": "0.0.0",
+	"description": "通用工具库",
+	"main": "index.js",
+	"types": "index.d.ts",
+	"scripts": {
+		"test": "jest --no-cache",
+		"test-c": "jest --coverage"
+	},
+	"files": [
+		"**/*",
+		"!**/*.spec.js",
+		"!**/*.test.js",
+		"!jest.config.js",
+		"!coverage"
+	],
+	"author": "pluschong",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pluschong/utils.git"
+	},
+	"bugs": {
+		"url": "https://github.com/pluschong/utils/issues"
+	},
+	"homepage": "https://github.com/pluschong/utils#readme",
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org/",
+		"access": "public"
+	},
+	"dependencies": {
+		"@pluschong/safe-type": "^0.0.1",
+		"dayjs": "^1.11.19",
+		"decimal.js": "^10.6.0",
+		"extend": "^3.0.2"
+	},
+	"peerDependencies": {
+		"rxjs": "^7.0.0"
+	},
+	"devDependencies": {
+		"@jest/globals": "^30.2.0",
+		"@types/extend": "^3.0.4",
+		"@types/jest": "^30.0.0",
+		"jest": "^30.2.0",
+		"rxjs": "^7.8.1",
+		"ts-jest": "^29.4.5"
+	}
+}
