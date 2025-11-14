@@ -4,6 +4,17 @@
   "description": "通用工具库",
   "main": "index.js",
   "types": "index.d.ts",
+  "keywords": [
+    "utils",
+    "utilities",
+    "helpers",
+    "tools",
+    "date",
+    "number",
+    "validate",
+    "debounce",
+    "throttle"
+  ],
   "scripts": {
     "test": "jest --no-cache",
     "test-c": "jest --coverage"
